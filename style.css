@@ -11,7 +11,7 @@
 .nav-link{
     color: white;
     text-decoration: none;
-    font: 600 1rem/1.8 'Georgia';
+    font: 600 1rem/2 'Georgia';
     text-transform: uppercase;
     margin: 5rem;
 }
@@ -33,4 +33,26 @@ li{
     height: 60px;
     border-radius: 50%;
     border: 3px solid red;
+    margin-right: 2rem;
+}
+.bar {
+    height: 4px;
+    width: 25px;
+    background-color: white;
+    margin-bottom: 4px;
+    transition: all 0.5s;
+}
+.hamcontainer{
+    float: right;
+    padding: 2rem;
+}
+.animate .bar1 {
+    transform: rotate(45deg) translateY(11px);
+}
+.animate .bar2 {
+    transform: translatex(70%);
+    opacity: 0;
+}
+.animate .bar3 {
+    transform: rotate(-45deg) translateY(-12px);
 }
