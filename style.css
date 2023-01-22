@@ -152,7 +152,50 @@ img{
 .earings{
     display: flex;
 }
-
+.myslides{
+    display: block;
+}
+.slideshow{
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+}
+.slide_container{
+    max-width: 1000px;
+    position: relative;
+    display: flex;
+    background-color: aliceblue;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 15px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.283);
+}
+.caption{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.561);
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px; 
+    text-align: center;
+}
 
 @media screen and (max-width: 768px) {
 .hamcontainer{
