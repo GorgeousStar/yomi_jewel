@@ -10,3 +10,6 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
     hamcontainer.classList.toggle("animate");
     navMenu.classList.toggle("animate"); 
 }))
+
+// image slider
+
