@@ -153,7 +153,7 @@ img{
     display: flex;
 }
 .myslides{
-    display: block;
+    display: flex;
 }
 .slideshow{
     vertical-align: middle;
