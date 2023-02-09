@@ -6,7 +6,7 @@
     #body{
         overflow-x: hidden;
         scroll-behavior: smooth;
-        background-color: black;  
+        background-color: whitesmoke;  
     }
     
 header{
@@ -94,12 +94,12 @@ div + .bar:not(:last-child){
 .item{
     width: 400px;
     height: 400px;
-    background-color:  rgb(228, 219, 219);
+    background-color:  rgb(241, 239, 239);
 }
 .jewels{
     width: 350px;
     height: 300px;
-    border: 2px solid rgb(236, 230, 230);
+    border: 2px solid rgb(241, 239, 239);
     margin: 1rem;
     text-align: center;
 }
@@ -110,7 +110,7 @@ div + .bar:not(:last-child){
 .our-item{
     height: auto;
     width: 100vw;
-    background-color: rgb(236, 230, 230);
+    background-color: whitesmoke;
     padding: 1rem;
 }
 h1{
@@ -127,7 +127,7 @@ p{
     width: 100vw;
     height: auto;
     text-align: center;
-    background-color: rgb(236, 230, 230);
+    background-color: whitesmoke;
     padding: 2rem;
     margin-top: 15rem;
 }
@@ -137,7 +137,7 @@ p{
 img{
     width: 400px;
     height: 300px;
-    border: 15px solid rgb(217, 211, 211);
+    border: 15px solid rgb(241, 239, 239);
     margin: 1rem;
 }
 .neck_lace2{
@@ -147,7 +147,7 @@ img{
     width: 100%;
     height: auto;
    text-align: center;
-   background-color: rgb(236, 230, 230);
+   background-color: whitesmoke;
     padding: 2rem;
     margin-top: 15rem;
 }
@@ -169,7 +169,7 @@ h3{
     /* vertical-align: middle; */
     width: 400px;
     height: 400px;
-    border: 15px solid rgb(246, 230, 208);
+    border: 15px solid rgb(241, 239, 239);
 }
 .slide_container{
     display: flex;
@@ -181,7 +181,7 @@ h3{
     /* justify-content: center;
     align-items: center; */
     padding: 2rem;
-    background-color: rgb(247, 240, 231);
+    background-color: whitesmoke;
     margin-top: 15rem;
     
 }
@@ -250,7 +250,7 @@ h3{
     width: 100%;
     height: auto;
     text-align: center;
-    background-color: rgb(236, 230, 230);
+    background-color: whitesmoke;
     padding: 2rem;
     margin-top: 15rem;
 }
