@@ -16,6 +16,11 @@ header{
 li{
     list-style-type: none;
 }
+.shop-cart{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 .navbar{
     width: 100vw;
     height: 100px;
@@ -30,12 +35,14 @@ li{
     height: 70px;
     border-radius: 50%;
     border: 3px solid red;
+    
 }
 .nav-link{
     color: white;
+    font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 .nav-link:hover{
     text-decoration-line: underline;
@@ -79,7 +86,7 @@ div + .bar:not(:last-child){
 .image{
     width: 100vw;
     height: auto;
-    background-color: rgb(236, 230, 230);
+    background-color: whitesmoke;
     justify-content: center;
     align-items: center;
     padding-top: 8rem;
@@ -94,7 +101,7 @@ div + .bar:not(:last-child){
 .item{
     width: 400px;
     height: 400px;
-    background-color:  rgb(241, 239, 239);
+    background-color:  whitesmoke;
 }
 .jewels{
     width: 350px;
@@ -269,10 +276,10 @@ h3{
     position: fixed;
     left: -800px;
     top: 100px;
-    gap: 0;
+    gap: 1rem;
     flex-direction: column;
     width: 100vw;
-    height: 200px;
+    height: 300px;
     text-align: center;
     transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.628);
